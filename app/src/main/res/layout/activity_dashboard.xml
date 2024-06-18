@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard.DashboardActivity">
+
+    <TextView
+        android:id="@+id/textViewTotalEntrada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total de Entradas: R$ 0.00"
+        android:textSize="18sp"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewTotalSaida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total de Saídas: R$ 0.00"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewTotalEntrada"
+        android:layout_margin="16dp"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/textViewTotalSaida"
+        android:layout_marginTop="20dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/pieChart"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"/>
+
+</RelativeLayout>

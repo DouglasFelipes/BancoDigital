@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "679645803545",
+    "firebase_url": "https://bancodigital3-b5028-default-rtdb.firebaseio.com",
+    "project_id": "bancodigital3-b5028",
+    "storage_bucket": "bancodigital3-b5028.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679645803545:android:389bdf21cf0e9af61e6688",
+        "android_client_info": {
+          "package_name": "com.br.bancodigital"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX2NljSuRsY9Wwzu3l2FBKHIsbrZn80Fk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

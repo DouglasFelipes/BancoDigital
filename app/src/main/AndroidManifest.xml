@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BancoDigital"
+        tools:targetApi="31">
+        <activity
+            android:name=".dashboard.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chat.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cobrar.ReciboPagamentoActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BancoDigital3" />
+        <activity
+            android:name=".cobrar.PagarCobrancaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cobrar.CobrancaConfirmaActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BancoDigital3" />
+        <activity
+            android:name=".transferencia.SelecionarUsuarioActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BancoDigital3" />
+        <activity
+            android:name=".cobrar.CobrarFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".notificacoes.NotificacoesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".extrato.ExtratoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transferencia.TransferenciaReciboActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BancoDigital3" />
+        <activity
+            android:name=".transferencia.TransferenciaConfirmaActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BancoDigital3" />
+        <activity
+            android:name=".transferencia.TransferirUsuarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transferencia.TransferenciaFormActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BancoDigital3" />
+        <activity
+            android:name=".recarga.RecargaReciboActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BancoDigital3" />
+        <activity
+            android:name=".recarga.RecargaFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".usuario.MinhaContaActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BancoDigital2" />
+        <activity
+            android:name=".deposito.DepositoReciboActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BancoDigital3" />
+        <activity
+            android:name=".deposito.DepositoFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".app.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".autenticacao.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".autenticacao.RecuperarContaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".autenticacao.CadastroActivity"
+            android:exported="true" />
+        <activity
+            android:name=".app.MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
