@@ -41,7 +41,6 @@ Commit suas mudanças: git commit -m 'Adiciona nova feature'.
 Envie para o branch: git push origin minha-feature.
 Abra um Pull Request.
 
-Contato
 Se você tiver alguma dúvida, entre em contato:
 
 https://www.linkedin.com/in/douglasfelipe-rodrigues/
